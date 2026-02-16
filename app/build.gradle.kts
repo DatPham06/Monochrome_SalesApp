@@ -68,6 +68,9 @@ dependencies {
     // ViewModel
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
 
+    // Navigation Compose
+    implementation("androidx.navigation:navigation-compose:2.7.6")
+
     // Coil for image loading
     implementation("io.coil-kt:coil-compose:2.5.0")
 
