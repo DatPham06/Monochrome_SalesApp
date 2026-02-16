@@ -8,10 +8,8 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import androidx.lifecycle.viewmodel.compose.viewModel
-import com.monochrome.app.ui.screen.MainScreen
 import com.monochrome.app.ui.theme.MonochromeTheme
-import com.monochrome.app.viewmodel.MonochromeViewModel
+import com.phamthanhdat.monochromeapp.ui.navigation.AppNavigation
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
