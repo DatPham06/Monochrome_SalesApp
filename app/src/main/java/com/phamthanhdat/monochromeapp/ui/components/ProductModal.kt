@@ -1,7 +1,6 @@
 package com.monochrome.app.ui.components
 
 import androidx.compose.foundation.background
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -36,15 +35,13 @@ fun ProductModal(
         Box(
             modifier = Modifier
                 .fillMaxSize()
-                .background(Color.Black.copy(alpha = 0.5f))
-                .clickable(onClick = onDismiss),
+                .background(Color.Black.copy(alpha = 0.5f)),
             contentAlignment = Alignment.Center
         ) {
             Card(
                 modifier = Modifier
                     .fillMaxWidth(0.9f)
-                    .fillMaxHeight(0.85f)
-                    .clickable(enabled = false) { },
+                    .fillMaxHeight(0.85f),
                 colors = CardDefaults.cardColors(
                     containerColor = Color.White
                 ),
@@ -117,7 +114,7 @@ fun ProductModal(
 
                         Spacer(modifier = Modifier.height(16.dp))
 
-                        Divider(color = Color.Black.copy(alpha = 0.1f))
+                        HorizontalDivider(color = Color.Black.copy(alpha = 0.1f))
 
                         Spacer(modifier = Modifier.height(16.dp))
 

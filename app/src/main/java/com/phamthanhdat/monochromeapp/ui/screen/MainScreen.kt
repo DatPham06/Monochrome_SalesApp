@@ -1,4 +1,4 @@
-package com.monochrome.app.ui.screen
+package com.phamthanhdat.monochromeapp.ui.screen
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn

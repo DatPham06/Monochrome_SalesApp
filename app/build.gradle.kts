@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.phamthanhdat.monochromeapp"
-    compileSdk = 34
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.phamthanhdat.monochromeapp"
@@ -73,6 +73,7 @@ dependencies {
 
     // Coil for image loading
     implementation("io.coil-kt:coil-compose:2.5.0")
+    implementation(libs.androidx.compose.runtime)
 
     // Testing
     testImplementation("junit:junit:4.13.2")

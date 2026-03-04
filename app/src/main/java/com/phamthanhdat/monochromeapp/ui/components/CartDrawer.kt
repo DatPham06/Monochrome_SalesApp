@@ -1,7 +1,6 @@
 package com.monochrome.app.ui.components
 
 import androidx.compose.foundation.background
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -32,14 +31,12 @@ fun CartDrawer(
         modifier = Modifier
             .fillMaxSize()
             .background(Color.Black.copy(alpha = 0.5f))
-            .clickable(onClick = onDismiss)
     ) {
         Card(
             modifier = Modifier
                 .fillMaxWidth(0.85f)
                 .fillMaxHeight()
-                .align(Alignment.CenterEnd)
-                .clickable(enabled = false) { },
+                .align(Alignment.CenterEnd),
             colors = CardDefaults.cardColors(
                 containerColor = Color.White
             ),

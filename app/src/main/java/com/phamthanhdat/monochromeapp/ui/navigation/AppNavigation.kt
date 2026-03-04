@@ -5,7 +5,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.monochrome.app.ui.screen.MainScreen
+import com.phamthanhdat.monochromeapp.ui.screen.MainScreen
 import com.monochrome.app.viewmodel.MonochromeViewModel
 import com.phamthanhdat.monochromeapp.ui.screen.LoginScreen
 import com.phamthanhdat.monochromeapp.ui.screen.RegisterScreen
